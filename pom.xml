@@ -197,7 +197,14 @@
         <version>1.2.1</version>
         <scope>test</scope>
       </dependency>
-
+  
+      <dependency>
+        <groupId>com.ir.dashboard-webapp</groupId>
+        <artifactId>ir.dashboard-webapp</artifactId>
+        <version>${job.version}</version>
+        <type>war</type>
+      </dependency>
+      
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
